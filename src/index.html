@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <p class="hero__text">
+                Você esta sendo convidado para minha festa que acontecerá em <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Where:</b>
+                        My House
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Theame:</b>
+                        Nemo's theame
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>When:</b>
+                        03/12/2023 às 17hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Garanta sua vaga
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="event event--fantasia">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Fantasias</h2>
+                <p class="event__details__description">
+                    venham fantasiados de acordo com o tema da festa.
+                </p>
+            </div>
+            <img class="event__image" src="https://i.pinimg.com/564x/71/59/1a/71591ac00b5269ea2f30bea8134ed42f.jpg">
+        </div>
+    </section>
+
+    <section class="event event--comida event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Comida</h2>
+                <p class="event__details__description">
+                    Comida a vontade mas se quiser trazer algo, sinta-se a vontade.
+                </p>
+            </div>
+            <img class="event__image" src="https://i.pinimg.com/564x/91/04/1e/91041e14a79d25ba7fd8032c7e07e77c.jpg">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

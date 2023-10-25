@@ -1,0 +1,27 @@
+@use 'hero';
+@use 'infos_bar';
+@use 'buttons';
+@use 'variaveis';
+@use 'event';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    list-style: none;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+
+    @media (maax-width: 640px) {
+        max-width: 80%;
+    }
+
+    @media (maax-width: 1024px) {
+        max-width: 90%;
+    }
+}
